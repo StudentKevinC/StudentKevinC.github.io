@@ -26,6 +26,7 @@ body{
     background-color: black;
     transition: background-image 1s ease-in-out;
     height: 100vh;
+    min-height: 100vh;
 }
 
 .menu {
@@ -310,4 +311,14 @@ hr {
         margin-top: 15px;
         justify-content: center;
     }
+
+    .header-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-1 img {
+        width: 100%; /* si usas una imagen adicional */
+        max-width: 300px;
+        height: auto;
 }
