@@ -44,6 +44,8 @@ body{
 .logo {
     font-size: 35px;
     color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu .navbar ul li {
@@ -259,6 +261,10 @@ hr {
     object-fit: contain;
 }
 
+.movies img[src*="venom.png"] {
+    display: none;
+}
+
 
 @media (max-width:991px) {
     
@@ -336,3 +342,13 @@ hr {
         max-width: 300px;
         height: auto;
 }
+
+    .logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* opcional para contraste */
+    border-radius: 4px; /* opcional */
+  }
